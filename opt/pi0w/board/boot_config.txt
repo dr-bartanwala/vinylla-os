@@ -1,0 +1,19 @@
+# Please note that this is only a sample, we recommend you to change it to fit
+# your needs.
+# Ok got it!!
+# You should override this file using BR2_PACKAGE_RPI_FIRMWARE_CONFIG_FILE.
+# See http://buildroot.org/manual.html#rootfs-custom
+# and http://elinux.org/RPiconfig for a description of config.txt syntax
+
+start_file=start.elf
+fixup_file=fixup.dat
+
+kernel=zImage
+
+# Enable UART0 for serial console on ttyAMA0
+dtoverlay=miniuart-bt
+
+# Set the bootloader delay to 0 seconds. The default is 1s if not specified
+boot_delay=0
+disable_splash=1
+force_turbo=1

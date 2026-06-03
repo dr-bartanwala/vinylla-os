@@ -1,0 +1,3 @@
+[submodule "opt/buildroot"]
+	path = opt/buildroot
+	url = https://github.com/dr-bartanwala/buildroot
