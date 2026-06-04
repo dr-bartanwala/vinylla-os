@@ -1,1 +1,1 @@
-#empty
+console=tty1 console=ttyAMA0,115200

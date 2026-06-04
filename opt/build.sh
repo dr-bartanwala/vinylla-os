@@ -1,6 +1,4 @@
 #!/bin/sh
-
-
 build_image() {
     
     command="${1}"
@@ -24,4 +22,5 @@ build_image() {
 }
 
 command=$1
-build_image ${command}
+command2=$2
+build_image "${command} ${command2}"
