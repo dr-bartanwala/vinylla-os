@@ -12,7 +12,7 @@ kernel=zImage
 
 # Enable UART0 for serial console on ttyAMA0
 dtoverlay=miniuart-bt
-
+#dtoverlay=dwc2
 # Set the bootloader delay to 0 seconds. The default is 1s if not specified
 boot_delay=0
 disable_splash=1
