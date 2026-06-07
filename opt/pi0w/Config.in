@@ -1,1 +1,1 @@
-# no additional configs
+source "$BR2_EXTERNAL_RPI0W_Vinylla_PATH/../vinylla-applications/hello-world/Config.in"

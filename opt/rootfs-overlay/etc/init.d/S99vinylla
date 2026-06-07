@@ -2,7 +2,8 @@
 # Provides: Vinylla
 
 start() {
-    /start.sh &
+    echo "CRITICAL: S02vinylla is running now!" > /etc/init.d/vinylla.log
+    /start.sh 
     echo "Service starting up"   
 }
 
