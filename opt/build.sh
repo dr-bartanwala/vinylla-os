@@ -13,12 +13,11 @@ build_image() {
 
     #command=menuconfig #savedefconfig #${config_name}_defconfig
 
-    echo "hello world"
+    echo "Building Vinylla-os"
 
     echo ${command}
 
     make BR2_EXTERNAL="../${config_dir}/" O="${build_dir}" -C ./buildroot/ ${command}
-
 }
 
 command=$1
